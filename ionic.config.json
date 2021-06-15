@@ -1,0 +1,7 @@
+{
+  "name": "heartRate_biocardio",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
