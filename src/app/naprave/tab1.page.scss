@@ -1,0 +1,24 @@
+
+page-home {
+  .toolbar-content p {
+      margin-left: 10px;
+  }
+}
+
+.gumbVelikost{
+  font-size: xx-small;
+  margin-left: 20px;
+  height: 150px;
+  width:150px
+}
+
+.bluetoothGumb {
+  position: relative;
+  padding: 15px 80px;
+  text-align: center;
+  background-color: #021b35;
+}
+
+ion-content {
+  --ion-background-color:#021b35;
+}

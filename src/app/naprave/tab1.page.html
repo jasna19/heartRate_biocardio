@@ -1,0 +1,13 @@
+
+<ion-content>  
+  <br/>
+  <img (click)="scanDevices()" src="../../assets/img/bluetooth.gif" class="bluetoothGumb"/>
+
+   <ion-list> 
+    <ion-button class="gumbVelikost" color="light"
+    ion-item *ngFor="let device of heartRate.devices" [routerLink] = "['/prikaziUtrip/', device.id]" routerDirection="forward">
+      <p>{{ device.name }}</p>
+    </ion-button>  
+   </ion-list> 
+
+</ion-content>

@@ -1,0 +1,22 @@
+.blueButton {
+    --background: transparent;
+    --border-radius: 10px;
+&:hover {
+    --background: transparent;
+    --border-radius: 10px; 
+}
+}
+
+
+.btn-position {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+ion-content {
+    --background: url("../../assets/img/fingerprint1.jpg") no-repeat 100% 100%;
+}
+

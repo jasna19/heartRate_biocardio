@@ -1,0 +1,20 @@
+<ion-content class="ion-text-center">
+  <img src="../../assets/img/beatingHeart.gif" />
+  <p>{{ heartRate.statusMessage }}</p>
+  <p>RR interval: {{ heartRate.rrMessage }}ms</p>
+  <br />
+
+  <div [hidden]="skrij">
+    <button (click)="pricniMerjenje()" class="stoparicaGumb" block>
+      <img class="slikaStyle" src="../../assets/img/stoparica.png" />
+      <b>Prični z merjenjem</b>
+    </button>
+  </div>
+
+  <div [hidden]="!skrij">
+    <h3>{{ timeLeft }}</h3>
+    <ion-button color="secondary" outline (click)="prekiniMerjenje()"
+      >Prekini merjenje</ion-button
+    >
+  </div>
+</ion-content>
