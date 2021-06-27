@@ -21,7 +21,7 @@ export class HeartRateProvider {
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter');
+    console.log('ionViewDidEntersdfg');
   }
 
   scanDevices() {
